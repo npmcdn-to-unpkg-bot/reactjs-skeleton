@@ -1,0 +1,19 @@
+{
+  "name": "react_blank",
+  "version": "0.0.1",
+  "description": "Skeleton fro the tutorial",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify src/main.jsx -v -t [ babelify --presets [ react ] ] -o public/js/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Slavs",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-react": "^6.11.1",
+    "babelify": "^7.3.0",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "watchify": "^3.7.0"
+  }
+}
