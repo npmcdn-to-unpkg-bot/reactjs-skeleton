@@ -4,5 +4,5 @@ var List = require('./components/List.jsx');
 
 ReactDOM.render(
     <List />,
-    document.getElementById('ingredients')
+    document.getElementById('p_app')
 );
